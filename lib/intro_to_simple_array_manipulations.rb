@@ -3,7 +3,7 @@ def using_concat(apples, oranges)
 end
 
 def using_insert(array, element)
-  array[3].insert(element)
+  array.insert(4, element)
 end
   
 def using_uniq(array)
@@ -20,4 +20,3 @@ end
 
 def using_delete_at(array, n)
   array.delete_at(n)
-end
